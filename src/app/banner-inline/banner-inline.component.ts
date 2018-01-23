@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner-inline',
-  templateUrl: './banner-inline.component.html',
-  styleUrls: ['./banner-inline.component.css']
+  template: `<h1>{{title}}</h1>`,
 })
 export class BannerInlineComponent implements OnInit {
 
