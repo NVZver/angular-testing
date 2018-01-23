@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerInlineComponent implements OnInit {
 
+  title = 'Test Tour of Heroes';
+
   constructor() { }
 
   ngOnInit() {
